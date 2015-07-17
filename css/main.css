@@ -1,0 +1,48 @@
+body {
+	margin:0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+	background-image: url(../assets/images/background.jpg);
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	color: rgb(0,0,0);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+p {
+	font-family: arial, sans-serif;
+	color: rgb(0,0,0);
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
