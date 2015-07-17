@@ -1,74 +1,101 @@
 .main-wrapper {
-	width: 1000px;
-	height: auto;
-	margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
 }
-
 /* ==== [Start] Header style ==== */
 
 .header {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .header .billboard {
-	width: 100%;
-	height: 300px;
-	background-image: url(../assets/images/header.jpg);
-	background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/images/header.jpg);
+    background-size: cover;
 }
 
 .header .nav {
-	width: 100%;
-	height: auto;
-	background-color: rgb(154, 155, 142);
+    width: 100%;
+    height: auto;
+    background-color: rgb(154, 155, 142);
 }
 
 .header .nav ul {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
-.header	.nav ul li {
-	display: inline-block;
-	width: 20%;
+.header .nav ul li {
+    display: inline-block;
+    width: 20%;
 }
 
 .header .nav ul li a {
-	color: rgb(255,255,255);
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	padding: 10px 0;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .header .nav ul li a:hover,
 .header .nav ul li a:focus,
 .header .nav ul li a:active {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .header .nav ul li a.active {
-	text-decoration: underline;
+    text-decoration: underline;
+}
+/* ==== [End] Header stlye ==== */
+/* === [Start] Content stlye ==== */
+
+.row {
+    margin: 20px 0;
 }
 
+.white {
+	background-color: rgb(255,255,255);
+}
 
-/* ==== [End] Header stlye ==== */
+.text-padding {
+	padding: 15px;
+}
 
+.col_1 {
+    width: 100%;
+}
+
+.col_1_2 {
+    width: 50%;
+    float: left;
+}
+
+.col_1_3 {
+    width: 33.33%;
+    float: left;
+}
+
+.col_2_3 {
+    width: 66.66%;
+    float: left;
+}
+/* ==== [End] Content stlye ==== */
 /* === [Start] Footer stlye ==== */
 
 .footer {
-	width: 100%;
-	height: auto;
-	background-color: rgb(154, 155, 142);
-	text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(154, 155, 142);
+    text-align: center;
 }
 
 .footer p {
-	color: rgb(255,255,255);
-	padding: 10px 0;
-
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
 }
-
 /* === [Start] Footer stlye ==== */

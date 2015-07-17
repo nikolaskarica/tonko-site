@@ -1,0 +1,43 @@
+.posebna-ponuda  {
+	background-image: url(../assets/images/moon-man-MTV-logo.jpg);
+	background-size: cover;
+	height: 295px;
+	position: relative;
+}
+
+.posebna-ponuda a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.posebna-ponuda a p {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	color: rgb(255,255,255);
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.instrumenti li {
+	display: inline-block;
+	width: 33.33%;
+}
+
+.instrumenti li:first-child {
+	text-align: left;
+}
+
+.instrumenti li:nth-child(2) {
+	text-align: center;
+}
+
+.instrumenti li:last-child {
+	text-align: right;
+}
+
+.instrumenti img {
+	border: 1px solid rgb(0,0,0);
+}
