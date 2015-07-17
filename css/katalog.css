@@ -1,0 +1,34 @@
+.proizvodi ul li {
+	width: 24%;
+	display: inline-block;
+	vertical-align: text-top;
+	position: relative;
+	height: 180px;
+	margin-right: 13px;
+}
+
+.proizvodi ul li:last-child {
+	margin-right: 0;
+}
+
+.proizvodi ul li a {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 10px;
+}
+
+.proizvodi ul li a:hover,
+.proizvodi ul li a:focus,
+.proizvodi ul li a:active {
+	text-decoration: underline;
+}
+
+.proizvodi ul li img {
+	width: 100%;
+}
+
+.proizvodi ul li.txt {
+	background-color: white;
+	padding: 10px;
+}
