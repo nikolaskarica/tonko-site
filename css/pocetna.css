@@ -41,3 +41,7 @@
 .instrumenti img {
 	border: 1px solid rgb(0,0,0);
 }
+
+.text-padding p {
+	text-align: justify;
+}
